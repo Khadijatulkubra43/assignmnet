@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+    opacity: 0.7;
+    border-radius: 50%;
+
+}
+.navbar{
+   position: fixed;
+    overflow: hidden;
+
+}
+.navbar a{
+    float: right;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{
+    background-color: gray;
+    color: silver;
+}
+.bg{
+    width: 1300px;
+    height: 600px;
+}
+.btn{
+    background-color: brown;
+    border-color: brown;
+    color: white;
+}
+.contant{
+    border: 2px double black;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-top: -50ch;
+    margin-left: 500px;
+}
+h1{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h3{
+    color: rgb(255, 11, 11);
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pizza{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5ch;
+}
+.coffee{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5ch;
+}
+.burger{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5ch;
+}
+.drinks{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -5ch;
+}
+.items{
+    display: flex;
+    
+}
+.text{
+    color: black;
+    text-align: center;
+
+}
+.first{
+    border: 2px solid rgb(250, 222, 222);
+    width: 250px;
+    text-align: center;
+    margin-left: 70px;
+}
+.second{
+    border: 2px solid rgb(250, 222, 222);
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+}
+.third{
+    border: 2px solid rgb(250, 222, 222);
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+}
+.forth{
+    border: 2px solid rgb(250, 222, 222);
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+}
+.footer{
+    display: flex;
+    gap: 250px;
+    background-color: rgb(158, 105, 105);
+}
+.one{
+    margin-left: 80px;
+}
+.texts{
+    color: white;
+}
+.icon{
+    color: white;
+
+}
+input{
+    color: white;
+    
+}
+.button{
+    background-color: rgb(199, 132, 9);
+    border-color: rgb(199, 132, 9);
+}
